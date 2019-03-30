@@ -1,0 +1,53 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #fff;
+  background-color: #fff;
+  overflow-x:hidden !important;
+  overflow-y:hidden !important;
+}
+
+.reveal {
+  font-family: font-family: "PT Sans", Helvetica, Arial, sans-serif!important;
+  font-size: 18px;
+  font-weight: normal;
+  color: #3C3D42;
+}
+
+::selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.5;
+  font-weight: inherit;
+  font-size: 18px;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #222;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif!important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+     font-size: 100%;
+}
