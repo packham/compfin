@@ -25,7 +25,11 @@ body {
 .reveal .slides > section > section {
   line-height: 1.5;
   font-weight: inherit;
+<<<<<<< HEAD
   font-size: 16px;
+=======
+  font-size: 14px;
+>>>>>>> a9f45da38cc4b35573d8283ba783142de13f3fe9
 }
 
 /*********************************************
